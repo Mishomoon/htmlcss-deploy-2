@@ -10,106 +10,106 @@ body {
   position: relative;
   background-color: #7a2926; 
   width: 100%;
-  height: 200px; 
+  height: 180px; 
+  z-index: 10;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 .logo-pic{
   position: absolute;
-  margin-top: 10px;
-  width: 60px;
-  margin-left: 50px;
+  margin-top: -13px;
+  width: 220px;
+  margin-left: 100px;
 }
 
 .logo-name{
   position: absolute;
-  margin-top: 20px;
-  width: 140px;
-  margin-left: 110px;
+  margin-top: 80px;
+  width: 250px;
+  margin-left: 350px;
 }
 .logo-texts {
   position: absolute;
   top: 10px;
-  right: 100px;
+  right: 70px;
   display: flex;
   flex-direction: row;
   gap: 20px;
+  font-size: 20px;
 }
 
 .logo-text {
   color: rgb(240, 231, 217);
   font-size: 18px;
+  
 }
 
 .burger {
   position: absolute;
-  right: 170px;   
-  bottom: -90px; 
-  width: 250px;  
+  right: 80px;   
+  bottom: -100px; 
+  width: 270px; 
+  z-index: 20;  
 }
 
 .head-line{
   position: absolute;
-  top: 70px;      
-  left: 60px;      
+  top: 25px;      
+  left: 350px;      
   color: #f1e3d0;       
 }
 .head-line h1 {
-  font-size: 40px;     
+  font-size: 50px;     
   line-height: 1.1; 
   font-weight: 700;  
   margin: 0;         
 }
 .head-line p {
   font-size: 22px;
-  margin-top: 15px;   
+  margin-top: 50px;   
   font-weight: 300;
+  margin-left: 4px;
+
 }
 
 .head-buttons {
   position: absolute;
   top: 130px;     
-  left: 450px;     
+  left: 500px;     
   display: flex;
   gap: 20px;
 }
 .order-btn {
-  background-color: #e4c18b;
+  background-color: #ecd6b4;
   padding: 12px 28px;
   border-radius: 30px;
   border: none;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   cursor: pointer;
+  margin-left: 170px;
+  margin-top: -60px;
 }
 
-.menu-btn {
-  background-color: #ffffff;
-  padding: 12px 28px;
-  border-radius: 30px;
-  border: none;
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-}
+
 
 .menu-section {
   position: relative;
   background-color: #f5e8df;
   padding: 30px 60px;
-  
 }
 
 .menu-title {
   font-size: 28px;
-  font-weight: bold;
-  color: #7a2926;     
+  font-weight:bolder;
+  color: #611d1a;     
   text-align: center;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 
 .menu-search {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   gap: 10px;
 }
@@ -132,7 +132,7 @@ body {
   cursor: pointer;
 }
 .menu-categories {
-  margin-top: 100px;
+  margin-top: 28px;
   display: flex;
   gap: 20px;
   margin-left: 1px;
@@ -140,8 +140,8 @@ body {
 
 .category-box {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 270px;
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
@@ -159,6 +159,22 @@ body {
   margin-bottom: 50px;
 }
 
+.category-name {
+    position: absolute;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight:bolder;
+    color: #7a2926;   
+}
+
+.category-desc {
+    font-size: 20px;
+    color: #0c0c0c; 
+    margin-top: 210px;
+    font-weight: 500;
+}
+
+
 .category-dessert { 
   margin-top: 20px; 
 }
@@ -168,7 +184,7 @@ body {
 }
 
 .category-box:nth-child(2) .category-desc {
-  margin-top: -170px; 
+  margin-top: -10px; 
 }
 
 .category-drink{
@@ -180,7 +196,7 @@ body {
 }
 
 .category-box:nth-child(3) .category-desc {
-  margin-top: -130px; 
+  margin-top: 30px; 
 }
 
 .category-sides{
@@ -188,32 +204,69 @@ margin-top: 70px;
 }
 
 .category-box:nth-child(4) .category-name {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .category-box:nth-child(4) .category-desc {
-  margin-top: -134px;
+  margin-top: 30px;
 }
 
-
-
-.category-name {
-  position: absolute;
-  margin-bottom: 100px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #7a2926;
-}
-.category-desc {
-  font-size: 16px;
-  color: #0c0c0c;
-  margin-top: 50px; 
-  font-weight: 500;
-}
 
 .category-box:hover {
   transform: scale(1.05);
   box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+}
+
+.menu-descriptions {
+    margin-top: 60px;
+    padding: 10px 60px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 26px;
+    color: #7a2926;
+    margin-top: -20px;
+}
+
+.item-img {
+    width: 120px;        
+    height: auto;
+    border-radius: 15px; 
+    margin-top: -70px; 
+}
+
+.item-desc {
+    margin-bottom: 35px;
+}
+
+.item-desc h3 {
+    font-size: 22px;
+    color: #7a2926;
+    margin-top: -50px;
+    margin-left: -68px;
+}
+
+.price {
+    color: #2e7d32;
+    font-weight: 700; 
+    margin-left: 6px;
+}
+
+
+.item-desc p {
+    font-size: 17px;
+    color: #292828;
+    margin-left: -68px;
+    margin-top: -14px;
+}
+
+.item-desc .nutrition {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #230303;
+    font-style: italic;
+    margin-left: -68px;
 }
 
 
