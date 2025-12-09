@@ -259,33 +259,6 @@ body {
         width: 70px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bottom-nav {
     position: fixed;
     bottom: 1px;
@@ -325,3 +298,10 @@ body {
     margin-top: -70px;
 }
 
+.phone-container {
+    width: 430px;      /* phone width */
+    margin: 0 auto;    /* center in desktop */
+    background-color: #F3EADD;
+    min-height: 100vh;
+    position: relative;
+}
