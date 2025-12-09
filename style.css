@@ -76,6 +76,12 @@ body {
     margin-top: -130px;
 }
 
+.burger-link {
+    text-decoration:underline;
+    color:#1349be;
+    display:block;
+}
+
 .dessert {
     width: 300px;
     margin-top: -130px;
@@ -305,16 +311,16 @@ body {
 
 
 
-/* Item css  */
 
-/* ITEM PAGE BACKGROUND */
+
+/* ITEM PAGE CSS */
 .item-page {
-    background-color: #F3EADD;
+    background-color: #f4e5d1;
     margin: 0;
     padding: 0;
 }
 
-/* BACK ARROW */
+
 .top-bar {
     padding: 40px;
 }
@@ -323,29 +329,97 @@ body {
     width: 80px; 
 }
 
-/* BURGER IMAGE */
-.item-image {
-    width: 420px;
+.back-link {
+    text-decoration: none;
+    text-align: left;
+}
+
+.back-text {
+    color: rgb(68, 22, 12);
+    text-decoration: underline;
+    font-size: 50px;
+    margin-top: -100px;
+    margin-left: 120px;
+}
+
+.burger-img {
+    width: 600px;
     display: block;
     margin: 0 auto;
-    margin-top: -20px;
+    margin-top: -160px;
 }
 
-/* TITLE */
-.item-title {
+
+.burger-title {
     font-family: 'Alfa Slab One';
-    font-size: 70px;
+    font-size:100px;
     color: #C16E0D;
     text-align: center;
-    margin-top: 20px;
+    margin-top: -230px;
+   
 }
 
 
-.item-description {
+.burger-desco {
     font-family: 'Cairo';
-    font-size: 36px;
-    color: #5a3925;
-    text-align: center;
+    font-size: 60px;
+    color: #260c09;
     padding: 0 70px;
-    margin-top: -10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: 1.6;
+    text-align: center;
+     margin-bottom: 20px;
+}
+
+.total-price-label {
+    font-size: 60px;
+    color: #421714;
+    margin-top: -150px;
+    margin-left: 600px;
+
+
+}
+
+.total-price {
+    font-size: 66px;
+    font-weight: bold;
+    color: #1fa012;
+    margin-left: 600px;
+    margin-top: -30px;
+
+}
+
+.add-btn-img{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+.add-cart-img{
+    width: 830px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+
+    .item-title {
+        font-size: 55px;
+    }
+
+    .item-description {
+        font-size: 28px;
+        padding: 0 40px;
+    }
+
+    .item-image {
+        width: 350px;
+    }
+
+    .add-cart-btn {
+        font-size: 32px;
+        padding: 20px;
+    }
 }
