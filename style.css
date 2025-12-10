@@ -464,42 +464,46 @@ body {
     margin-left: 480px;
 }
 
-.top-section {
+.top-menu-text {
+    font-size: 40px;
+    color: #6C2829;
+}
+
+/* PRICE TOP RIGHT */
+.price-row {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center; 
-    position: relative;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 0 40px;
+    margin-top: -20px;
 }
-.price-row {
-    display: flex;
-    justify-content: flex-start; 
-    align-items: center;
-    gap: 20px; 
-    margin-left: 40px; 
-    margin-top: -10px; 
-}
+
 .price {
     font-size: 60px;
     font-weight: bold;
     color: #6C2829;
-    margin-top: -1200px;
-    margin-left: 250px;
 }
 
 .currency {
-    font-size: 50px;
+    font-size: 45px;
     color: #6C2829;
-    margin-left: 80px;
-    margin-bottom: 200px;
+    margin-top: 10px; /* moves EUR alone */
 }
 
+/* BURGER IMAGE */
+.cart-burger-img {
+    width: 350px;
+    margin-top: -20px;
+}
+
+/* TITLE */
 .cart-title {
     font-family: 'Alfa Slab One';
-    font-size: 67px;
+    font-size: 65px;
     color: #C16E0D;
-    margin-top: -510px;
-    margin-right: 460px;
+    text-align: center;
+    margin-top: 20px;
 }
 .personalize-text {
     font-size: 34px;
