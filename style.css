@@ -532,6 +532,27 @@ body {
     margin-top: -50px;
 }
 
+.sauce{
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: -20px;
+}
+
+.cheddar{
+    width: 140px;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: -20px;
+}
+
+.pepper{
+    width: 140px;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: -20px;
+}
+
 .ingredient-name {
     font-family: 'Cairo';
     font-size: 47px;
